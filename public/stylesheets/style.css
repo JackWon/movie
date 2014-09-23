@@ -1,0 +1,15 @@
+.menu{
+	position: absolute;
+	z-index: 2;
+	margin: 10px;
+}
+.sliderimg{
+	position: absolute;
+	z-index: 1;
+}
+.menu-back{
+	background-color: transparent; 
+}
+.menu-padding{
+	padding: 0; 
+}
