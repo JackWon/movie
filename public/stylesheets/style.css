@@ -1,15 +1,14 @@
-.menu{
+.menu-line{
 	position: absolute;
-	z-index: 2;
-	margin: 10px;
+	z-index:1;
+	margin: 20px;
 }
-.sliderimg{
-	position: absolute;
-	z-index: 1;
+.button-text{
+	text-decoration: none;
 }
-.menu-back{
-	background-color: transparent; 
-}
-.menu-padding{
-	padding: 0; 
+.logostyle{
+	height: 160px;
+	width: 260px;
+	/*position:absolute;
+	clip:rect(300px 600px 500px 200px);*/
 }

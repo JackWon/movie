@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='/assets/css/amui.all.min.css' />
+    
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/Buttons/css/buttons.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
     <script type="text/javascript" src='/javascripts/jquery.min.js'></script>
-    <script type="text/javascript" src='/javascripts/zepto.min.js'></script>
-    <script type="text/javascript" src='/assets/js/amui.min.js'></script>
+    <script type="text/javascript" src='/bootstrap/js/bootstrap.min.js'></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script type="text/javascript" src='/Buttons/js/buttons.js'></script>
   </head>
   <body>
-	<div class="am-g menu">
-		<div class="col-md-3 col-md-offset-3">
-			<form action="" class="am-form am-form-inline">
-			  <div class="am-form-group am-form-icon">
-			    <i class="am-icon-calendar"></i>
-			    <input type="text" class="am-form-field" placeholder="日期">
-			  </div>
-			  <button type="submit" class="am-btn am-btn-default">登录</button>
-			</form>
-		</div>
+  	<div class="container-fluid menu-line">
+	  <div class="row">
+	  	<div class="col-md-3 col-md-offset-3">
+	  		<img class='logostyle' src="/images/logo.png">
+	  	</div>
+	    <!-- <div class="col-md-4">
+	    	<a href="#" class="button button-pill button-flat-primary button-text" style="text-decoration:none;">音乐</a>
+	    </div> -->
+	  </div>
 	</div>
-	<div data-am-widget="slider" class="am-slider am-slider-d1" data-am-slider='{&quot;controlNav&quot;:false}'>
-  <ul class="am-slides">
-    <li>
-      <img src="http://cn.bing.com/az/hprichv/LondonTrainStation_GettyRR_139321755_ZH-CN742316019.jpg">
-      <div class="am-slider-desc">
-        <h2 class="am-slider-title">远方 有一个地方 那里种有我们的梦想</h2>
-        <a class="am-slider-more">了解更多</a>
-      </div>
-    </li>
-    <li>
-      <img src="http://s.cn.bing.net/az/hprichbg/rb/CardinalsBerries_ZH-CN10679090179_1366x768.jpg">
-      <div class="am-slider-desc">
-        <h2 class="am-slider-title">某天 也许会相遇 相遇在这个好地方</h2>
-        <a class="am-slider-more">了解更多</a>
-      </div>
-    </li>
-    <li>
-      <img src="http://s.cn.bing.net/az/hprichbg/rb/QingdaoJiaozhou_ZH-CN10690497202_1366x768.jpg">
-      <div class="am-slider-desc">
-        <h2 class="am-slider-title">不要太担心 只因为我相信 终会走过这条遥远的道路</h2>
-        <a class="am-slider-more">了解更多</a>
-      </div>
-    </li>
-    <li>
-      <img src="http://s.cn.bing.net/az/hprichbg/rb/FennecFox_ZH-CN13720911949_1366x768.jpg">
-      <div class="am-slider-desc">
-        <h2 class="am-slider-title">OH PARA PARADISE 是否那么重要 你是否那么地遥远</h2>
-        <a class="am-slider-more">了解更多</a>
-      </div>
-    </li>
-  </ul>
-</div>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <img src="/images/424917.jpg" >
+	      <div class="carousel-caption">
+	        
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="/images/424910.jpg">
+	      <div class="carousel-caption">
+	        
+	      </div>
+	    </div>
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
   </body>
 </html>
