@@ -1,14 +1,58 @@
 .menu-line{
 	position: absolute;
 	z-index:1;
-	margin: 20px;
+	margin: 10px;
 }
 .button-text{
-	text-decoration: none;
+	margin: 30px 0 0 5px;
 }
 .logostyle{
-	height: 160px;
-	width: 260px;
-	/*position:absolute;
-	clip:rect(300px 600px 500px 200px);*/
+	height: 100px;
+	width: 160px;
+}
+.menu-nav a{
+	color: #999;
+}
+.index-image-sm{
+	padding: 1px;
+}
+.index-image-sm-box{
+	position: absolute;
+	z-index:1;
+	margin-top: 180px;
+	margin-left: 37px;
+}
+.movie-name-box{
+	margin-top: 40px;
+	width: 195px;
+}
+.days{
+	letter-spacing: ;
+	font-size: 150%;
+	color: #ff6d00;
+}
+.movie-name{
+	font-weight: bolder;
+	font-size:140%;
+}
+.movie-time{
+	font-size:69%;
+}
+.play-icon{
+	width: 119px;
+	height: 119px;
+	overflow: hidden;
+	background-image:url('../images/icon.png');
+	background-repeat:no-repeat;
+	background-position:-119px -52px;
+	position: relative;
+	left: 205px;
+}
+.play-icon-img{
+	
+	position:-119px -52px;
+}
+.container{
+	width: 1170px;
+	margin: 0;
 }
