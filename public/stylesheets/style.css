@@ -1,7 +1,15 @@
-.menu-line{
+/*.container{
+	width: 1440px;
+	margin: 0;
+	padding: 0;
+}*/
+.menu{
 	position: absolute;
 	z-index:1;
-	margin: 10px;
+}
+.menu1{
+	margin-right: auto;
+	margin-left: auto;
 }
 .button-text{
 	margin: 30px 0 0 5px;
@@ -52,7 +60,8 @@
 	
 	position:-119px -52px;
 }
-.container{
-	width: 1170px;
+
+.box-width{
 	margin: 0;
+	padding: 0;
 }
